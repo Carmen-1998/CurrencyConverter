@@ -1,0 +1,208 @@
+.container {
+  background: linear-gradient(rgb(0, 1, 54), rgb(81, 220, 255));
+  width: 40%;
+  height: 400px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 65%;
+    margin-top: 14%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container {
+    width: 65%;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container {
+    width: 85%;
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container {
+    width: 90%;
+    margin-top: 25%;
+  }
+}
+.container h1 {
+  margin-bottom: 35px;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 45px;
+}
+@media screen and (max-width: 1200px) {
+  .container h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container h1 {
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container h1 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+.container .input {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 290px) {
+  .container .input #inputInsertData {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container .input #inputResultData {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .input .mar {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  width: 55%;
+}
+@media screen and (max-width: 1200px) {
+  .container .input .mar {
+    font-size: 20px;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container .input .mar {
+    font-size: 20px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container .input .mar {
+    font-size: 20px;
+    width: 77%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container .input .mar {
+    font-size: 20px;
+    width: 77%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container .input .mar {
+    font-size: 17px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container .input {
+    width: 75%;
+  }
+}
+.container .input input {
+  margin: 15px 10px 10px 0px;
+  font-size: large;
+}
+@media screen and (max-width: 1200px) {
+  .container .input input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container .input input {
+    font-size: larger;
+    width: 65%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container .input input {
+    font-size: medium;
+    width: 100%;
+  }
+}
+.container .input input, .container .input button {
+  border: 1px solid rgb(196, 228, 255);
+  border-radius: 2px;
+}
+.container .input select {
+  font-size: medium;
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(196, 228, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .input select::-webkit-scrollbar {
+  width: 6px;
+}
+.container .input select::-webkit-scrollbar-track {
+  background-color: white;
+}
+.container .input select::-webkit-scrollbar-thumb {
+  background-color: rgb(7, 7, 110);
+  border-radius: 20px;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+@media screen and (max-width: 290px) {
+  .container .input select {
+    width: 35%;
+    margin: auto;
+  }
+}
+.container .input .icon {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  margin-top: 5px;
+}
+@media screen and (max-width: 290px) {
+  .container .input .icon {
+    margin-top: 15px;
+  }
+}
+.container .input button {
+  width: 40%;
+  height: 30px;
+  margin-top: 30px;
+  background-color: rgb(0, 0, 87);
+  color: aliceblue;
+  font-size: medium;
+  cursor: pointer;
+}
+.container .input button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 3, 99);
+}
+@media screen and (max-width: 1200px) {
+  .container .input button {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container .input button {
+    width: 40%;
+  }
+}/*# sourceMappingURL=body.css.map */

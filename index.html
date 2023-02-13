@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/db42a6cbb0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Currency converter</h1>
+            
+            <div class="input">
+                <div class="mar">
+                    <marquee behavior="" direction="">Enter amount and choose currencies</marquee>
+                </div>
+                <div id="inputInsertData">
+                    <input type="number" placeholder="Insert Number" id="input">
+                    <select name="currency" class="currency"></select>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-down"></i>           </div>
+                <div id="inputResultData">
+                    <input type="number" id="result" disabled>
+                    <select name="currency" class="currency"></select>
+                </div>
+                <button class="sendData" id="sendData">Convert</button>
+            </div>
+            
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
